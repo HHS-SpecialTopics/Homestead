@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1967D391E61278DEAAFF84CB19249C79 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE1DD4405407524085AD094698147E2 /* Pods-OneSignalNotificationServiceExtension-dummy.m */; };
+		2E458E922667727883DE90F627D02FA4 /* Pods-HomesteadTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D205C2A47C4CC38D3B0DECA60F6F8 /* Pods-HomesteadTests-dummy.m */; };
+		69AC47D72876FC577503D9171DDBA7E0 /* Pods-Homestead-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A6D042B45758C3AB80B689CDCC76E0 /* Pods-Homestead-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85AE62B8C04D7BF3362C6A8A32690B15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8A25A580E8FA9855A72BC117D16F0D37 /* Pods-HomesteadUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7127F3EC097094D3A9BF75C13F902FA1 /* Pods-HomesteadUITests-dummy.m */; };
+		A5544D656B2CBF76E455E5265752DE8C /* Pods-Homestead-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E83F82004AD1C70121645471ACBBA0 /* Pods-Homestead-dummy.m */; };
+		A8CABDD2986C1FF0617E05E009BEE327 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B113B38B1AAAD0F83EB0DD95E14C3BCB /* Pods-HomesteadTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F69412E44773FC6508DAEB09A5C66B /* Pods-HomesteadTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B560798328F02B27552DB78FAB29EBE6 /* Pods-OneSignalNotificationServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF0B85AD56E389EEEBE66ADCB51789B /* Pods-OneSignalNotificationServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B56B6D1F1C88BFAECD80A0B74ED996F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		C5997CC4FAFA398352B8C06292FA9BD5 /* Pods-HomesteadUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A37B2D63AA566A00CBB2C9AD62F148FA /* Pods-HomesteadUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F015B4142BEB865313F6C5C024C237C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0107E81959F737611A31E5671A94C47B /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = iOS_SDK/OneSignalSDK/Framework/OneSignal.framework; sourceTree = "<group>"; };
+		0B1D205C2A47C4CC38D3B0DECA60F6F8 /* Pods-HomesteadTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HomesteadTests-dummy.m"; sourceTree = "<group>"; };
+		0CF18075A2A3777B8D0046AA3605638C /* Pods-HomesteadTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HomesteadTests.release.xcconfig"; sourceTree = "<group>"; };
+		0D55C28FB7D4E02513EBD6C4BF17597A /* Pods-HomesteadTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HomesteadTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E5F15B8C424DA3EF81457EAF2EBC6F8 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		12D90F266108B248257454DDD3F24EF8 /* Pods-Homestead.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Homestead.debug.xcconfig"; sourceTree = "<group>"; };
+		1D7989333DB4CE8A09F4AFEFD3E8A9CE /* Pods-HomesteadUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HomesteadUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		214164656DC7177FFEAE42DBA8347A00 /* Pods-HomesteadUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HomesteadUITests-frameworks.sh"; sourceTree = "<group>"; };
+		21E2A851117272D8F476CC113552B896 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2629BEA62E2B37E0E3E445B02A5546D5 /* Pods-HomesteadUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HomesteadUITests.release.xcconfig"; sourceTree = "<group>"; };
+		32E83F82004AD1C70121645471ACBBA0 /* Pods-Homestead-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Homestead-dummy.m"; sourceTree = "<group>"; };
+		32F69412E44773FC6508DAEB09A5C66B /* Pods-HomesteadTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HomesteadTests-umbrella.h"; sourceTree = "<group>"; };
+		4440A88061A2DF67B0228B4BCE140A43 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		4F5F1075D3CC9AC57D39F5075C782A89 /* Pods-HomesteadTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HomesteadTests-resources.sh"; sourceTree = "<group>"; };
+		5BF8B3CAD205BDA91B2C1C3F108E0488 /* Pods-HomesteadTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HomesteadTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		60544753F5A60D29C66021AA764CC49F /* Pods-HomesteadTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HomesteadTests.modulemap"; sourceTree = "<group>"; };
+		6D091CF103686A2789CAC5F0AA9DF7D6 /* Pods-OneSignalNotificationServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OneSignalNotificationServiceExtension.modulemap"; sourceTree = "<group>"; };
+		70E01899B8364A049632E5FE7F2050E4 /* Pods-Homestead-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Homestead-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7127F3EC097094D3A9BF75C13F902FA1 /* Pods-HomesteadUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HomesteadUITests-dummy.m"; sourceTree = "<group>"; };
+		777C1D5F77AF74E05A0185C1AE204405 /* Pods-HomesteadTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HomesteadTests-frameworks.sh"; sourceTree = "<group>"; };
+		8529FADB25A481B8281DB1382CE908C1 /* Pods-OneSignalNotificationServiceExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneSignalNotificationServiceExtension-resources.sh"; sourceTree = "<group>"; };
+		85CFB8CE7013AC86356F553B411361D3 /* Pods-Homestead.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Homestead.release.xcconfig"; sourceTree = "<group>"; };
+		8AA148D57E27006458BB6E5A371A0DCC /* Pods-Homestead-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Homestead-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E7F493286E1895910BFC7FD86E9917E /* Pods-HomesteadUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HomesteadUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A32AAA145C631348061C72FFA4AD1592 /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneSignalNotificationServiceExtension.framework; path = "Pods-OneSignalNotificationServiceExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A37B2D63AA566A00CBB2C9AD62F148FA /* Pods-HomesteadUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HomesteadUITests-umbrella.h"; sourceTree = "<group>"; };
+		ABE05FD3BDB77FD5FFD73385E418AD0B /* Pods-Homestead-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Homestead-resources.sh"; sourceTree = "<group>"; };
+		B37EAF28826658780FD4ADA36EB4BD81 /* Pods-Homestead-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Homestead-acknowledgements.plist"; sourceTree = "<group>"; };
+		BAD8E5802539F32ACACBE887E9C7F989 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB66AA99E48662BC9BD77AD719634711 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BCAF61F019369B7244FCF11FC010DBDB /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneSignalNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFE1DD4405407524085AD094698147E2 /* Pods-OneSignalNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneSignalNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
+		C26BA07F2869122B666279C35403CE93 /* Pods_HomesteadTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HomesteadTests.framework; path = "Pods-HomesteadTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4833C9177176BC68C6979315673BEA8 /* Pods-HomesteadUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HomesteadUITests-resources.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA813BB557C7AD7C6D62F446351A69D2 /* Pods-Homestead.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Homestead.modulemap"; sourceTree = "<group>"; };
+		DABAA0F1FC842D7ABCC44059AD4B0979 /* Pods-HomesteadUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HomesteadUITests.modulemap"; sourceTree = "<group>"; };
+		DB7AEDA3DEE8BF282474FB37E20F684C /* Pods-HomesteadTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HomesteadTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBEF613BEB738ADF098F6732A70501F5 /* Pods-HomesteadUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HomesteadUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E1A6D042B45758C3AB80B689CDCC76E0 /* Pods-Homestead-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Homestead-umbrella.h"; sourceTree = "<group>"; };
+		E1AD1052910B02F5ACAD68C35D2C9629 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B7D2F7D4572AC158DA2E8E0F3C94E8 /* Pods_HomesteadUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HomesteadUITests.framework; path = "Pods-HomesteadUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF0B85AD56E389EEEBE66ADCB51789B /* Pods-OneSignalNotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneSignalNotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
+		F3C9B23255A0790FE98F52F354336B51 /* Pods_Homestead.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Homestead.framework; path = "Pods-Homestead.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5DB87CBA8AF7BDCE46A68A7DEE051E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76C41C4E56E5B7B6C1728FE4F2D7C632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B56B6D1F1C88BFAECD80A0B74ED996F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85F25FA0AF5A76FB4556D77B25951D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AE62B8C04D7BF3362C6A8A32690B15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99D3AE535077689CE6A8B455649C15E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F015B4142BEB865313F6C5C024C237C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABF13BA4906B085C2C85C8768186A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8CABDD2986C1FF0617E05E009BEE327 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AFCC0A45241052CBB8A7EE75E7A2A7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3C9B23255A0790FE98F52F354336B51 /* Pods_Homestead.framework */,
+				C26BA07F2869122B666279C35403CE93 /* Pods_HomesteadTests.framework */,
+				E2B7D2F7D4572AC158DA2E8E0F3C94E8 /* Pods_HomesteadUITests.framework */,
+				A32AAA145C631348061C72FFA4AD1592 /* Pods_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31024DDD121568A44F4DC265C15F4D16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0107E81959F737611A31E5671A94C47B /* OneSignal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6202124E9D433C3EA7B1CF2F09917CA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B109A558AEC0464E1C8AD13A3517ECA8 /* OneSignal */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6202124E9D433C3EA7B1CF2F09917CA5 /* Pods */,
+				1AFCC0A45241052CBB8A7EE75E7A2A7A /* Products */,
+				F2B18510C9423187B2BF8EF68D4EB064 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A28DB1EDBD04A28E2D87F32A90E65C5 /* Pods-HomesteadTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD1052910B02F5ACAD68C35D2C9629 /* Info.plist */,
+				60544753F5A60D29C66021AA764CC49F /* Pods-HomesteadTests.modulemap */,
+				DB7AEDA3DEE8BF282474FB37E20F684C /* Pods-HomesteadTests-acknowledgements.markdown */,
+				5BF8B3CAD205BDA91B2C1C3F108E0488 /* Pods-HomesteadTests-acknowledgements.plist */,
+				0B1D205C2A47C4CC38D3B0DECA60F6F8 /* Pods-HomesteadTests-dummy.m */,
+				777C1D5F77AF74E05A0185C1AE204405 /* Pods-HomesteadTests-frameworks.sh */,
+				4F5F1075D3CC9AC57D39F5075C782A89 /* Pods-HomesteadTests-resources.sh */,
+				32F69412E44773FC6508DAEB09A5C66B /* Pods-HomesteadTests-umbrella.h */,
+				0D55C28FB7D4E02513EBD6C4BF17597A /* Pods-HomesteadTests.debug.xcconfig */,
+				0CF18075A2A3777B8D0046AA3605638C /* Pods-HomesteadTests.release.xcconfig */,
+			);
+			name = "Pods-HomesteadTests";
+			path = "Target Support Files/Pods-HomesteadTests";
+			sourceTree = "<group>";
+		};
+		B109A558AEC0464E1C8AD13A3517ECA8 /* OneSignal */ = {
+			isa = PBXGroup;
+			children = (
+				31024DDD121568A44F4DC265C15F4D16 /* Frameworks */,
+			);
+			name = OneSignal;
+			path = OneSignal;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E252234C9E86D39BFDA6F9F630DA6A93 /* Pods-HomesteadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAD8E5802539F32ACACBE887E9C7F989 /* Info.plist */,
+				DABAA0F1FC842D7ABCC44059AD4B0979 /* Pods-HomesteadUITests.modulemap */,
+				1D7989333DB4CE8A09F4AFEFD3E8A9CE /* Pods-HomesteadUITests-acknowledgements.markdown */,
+				DBEF613BEB738ADF098F6732A70501F5 /* Pods-HomesteadUITests-acknowledgements.plist */,
+				7127F3EC097094D3A9BF75C13F902FA1 /* Pods-HomesteadUITests-dummy.m */,
+				214164656DC7177FFEAE42DBA8347A00 /* Pods-HomesteadUITests-frameworks.sh */,
+				C4833C9177176BC68C6979315673BEA8 /* Pods-HomesteadUITests-resources.sh */,
+				A37B2D63AA566A00CBB2C9AD62F148FA /* Pods-HomesteadUITests-umbrella.h */,
+				9E7F493286E1895910BFC7FD86E9917E /* Pods-HomesteadUITests.debug.xcconfig */,
+				2629BEA62E2B37E0E3E445B02A5546D5 /* Pods-HomesteadUITests.release.xcconfig */,
+			);
+			name = "Pods-HomesteadUITests";
+			path = "Target Support Files/Pods-HomesteadUITests";
+			sourceTree = "<group>";
+		};
+		EB083DD9DA13FC0FAB25154E4C3CBE12 /* Pods-OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				FC5DB87CBA8AF7BDCE46A68A7DEE051E /* Info.plist */,
+				6D091CF103686A2789CAC5F0AA9DF7D6 /* Pods-OneSignalNotificationServiceExtension.modulemap */,
+				BB66AA99E48662BC9BD77AD719634711 /* Pods-OneSignalNotificationServiceExtension-acknowledgements.markdown */,
+				BCAF61F019369B7244FCF11FC010DBDB /* Pods-OneSignalNotificationServiceExtension-acknowledgements.plist */,
+				BFE1DD4405407524085AD094698147E2 /* Pods-OneSignalNotificationServiceExtension-dummy.m */,
+				8529FADB25A481B8281DB1382CE908C1 /* Pods-OneSignalNotificationServiceExtension-resources.sh */,
+				ECF0B85AD56E389EEEBE66ADCB51789B /* Pods-OneSignalNotificationServiceExtension-umbrella.h */,
+				4440A88061A2DF67B0228B4BCE140A43 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				0E5F15B8C424DA3EF81457EAF2EBC6F8 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			name = "Pods-OneSignalNotificationServiceExtension";
+			path = "Target Support Files/Pods-OneSignalNotificationServiceExtension";
+			sourceTree = "<group>";
+		};
+		F244552A7CA8F6CC89815F91B8C53AB4 /* Pods-Homestead */ = {
+			isa = PBXGroup;
+			children = (
+				21E2A851117272D8F476CC113552B896 /* Info.plist */,
+				DA813BB557C7AD7C6D62F446351A69D2 /* Pods-Homestead.modulemap */,
+				70E01899B8364A049632E5FE7F2050E4 /* Pods-Homestead-acknowledgements.markdown */,
+				B37EAF28826658780FD4ADA36EB4BD81 /* Pods-Homestead-acknowledgements.plist */,
+				32E83F82004AD1C70121645471ACBBA0 /* Pods-Homestead-dummy.m */,
+				8AA148D57E27006458BB6E5A371A0DCC /* Pods-Homestead-frameworks.sh */,
+				ABE05FD3BDB77FD5FFD73385E418AD0B /* Pods-Homestead-resources.sh */,
+				E1A6D042B45758C3AB80B689CDCC76E0 /* Pods-Homestead-umbrella.h */,
+				12D90F266108B248257454DDD3F24EF8 /* Pods-Homestead.debug.xcconfig */,
+				85CFB8CE7013AC86356F553B411361D3 /* Pods-Homestead.release.xcconfig */,
+			);
+			name = "Pods-Homestead";
+			path = "Target Support Files/Pods-Homestead";
+			sourceTree = "<group>";
+		};
+		F2B18510C9423187B2BF8EF68D4EB064 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F244552A7CA8F6CC89815F91B8C53AB4 /* Pods-Homestead */,
+				9A28DB1EDBD04A28E2D87F32A90E65C5 /* Pods-HomesteadTests */,
+				E252234C9E86D39BFDA6F9F630DA6A93 /* Pods-HomesteadUITests */,
+				EB083DD9DA13FC0FAB25154E4C3CBE12 /* Pods-OneSignalNotificationServiceExtension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16AD86A26A98F343544951EA21734898 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B113B38B1AAAD0F83EB0DD95E14C3BCB /* Pods-HomesteadTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32CC3B6C41FB72F15EE0AE1C87D2E83C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B560798328F02B27552DB78FAB29EBE6 /* Pods-OneSignalNotificationServiceExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D221ABDDB0EBC0716AFA8ACBE9818C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5997CC4FAFA398352B8C06292FA9BD5 /* Pods-HomesteadUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE61F1C5D1A63DB47573231CE6A95E1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69AC47D72876FC577503D9171DDBA7E0 /* Pods-Homestead-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12B34BA28F73488B5AFB9B86E867F6D0 /* Pods-HomesteadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E4840848256FFD31C52F1445E9F39E /* Build configuration list for PBXNativeTarget "Pods-HomesteadTests" */;
+			buildPhases = (
+				708116AF9470ACE533BB6391FD944770 /* Sources */,
+				DABF13BA4906B085C2C85C8768186A09 /* Frameworks */,
+				16AD86A26A98F343544951EA21734898 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HomesteadTests";
+			productName = "Pods-HomesteadTests";
+			productReference = C26BA07F2869122B666279C35403CE93 /* Pods_HomesteadTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E6D3A4BAD83BDB436BBB0B380086792 /* Pods-HomesteadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80B41BA6F35FE47B1E630A2F68241FDC /* Build configuration list for PBXNativeTarget "Pods-HomesteadUITests" */;
+			buildPhases = (
+				3286F8F7FEE7042D9E7D9A42C06497B4 /* Sources */,
+				76C41C4E56E5B7B6C1728FE4F2D7C632 /* Frameworks */,
+				94D221ABDDB0EBC0716AFA8ACBE9818C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HomesteadUITests";
+			productName = "Pods-HomesteadUITests";
+			productReference = E2B7D2F7D4572AC158DA2E8E0F3C94E8 /* Pods_HomesteadUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		745A2536ABC9981AD547B885DBBC3C73 /* Pods-OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B8484BCBB9BF0FF6FC51657FFDF22D3 /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				4FFF30A74222236548450440B772FF4C /* Sources */,
+				99D3AE535077689CE6A8B455649C15E3 /* Frameworks */,
+				32CC3B6C41FB72F15EE0AE1C87D2E83C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OneSignalNotificationServiceExtension";
+			productName = "Pods-OneSignalNotificationServiceExtension";
+			productReference = A32AAA145C631348061C72FFA4AD1592 /* Pods_OneSignalNotificationServiceExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E34456066AAD1E7670B83077790A718F /* Pods-Homestead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A53C1B44C2E13629618DFAC23C1E887 /* Build configuration list for PBXNativeTarget "Pods-Homestead" */;
+			buildPhases = (
+				04D1C398FAFB5FA64849FEA6DEA15D1D /* Sources */,
+				85F25FA0AF5A76FB4556D77B25951D6C /* Frameworks */,
+				FE61F1C5D1A63DB47573231CE6A95E1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Homestead";
+			productName = "Pods-Homestead";
+			productReference = F3C9B23255A0790FE98F52F354336B51 /* Pods_Homestead.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1AFCC0A45241052CBB8A7EE75E7A2A7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E34456066AAD1E7670B83077790A718F /* Pods-Homestead */,
+				12B34BA28F73488B5AFB9B86E867F6D0 /* Pods-HomesteadTests */,
+				4E6D3A4BAD83BDB436BBB0B380086792 /* Pods-HomesteadUITests */,
+				745A2536ABC9981AD547B885DBBC3C73 /* Pods-OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D1C398FAFB5FA64849FEA6DEA15D1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5544D656B2CBF76E455E5265752DE8C /* Pods-Homestead-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3286F8F7FEE7042D9E7D9A42C06497B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A25A580E8FA9855A72BC117D16F0D37 /* Pods-HomesteadUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FFF30A74222236548450440B772FF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1967D391E61278DEAAFF84CB19249C79 /* Pods-OneSignalNotificationServiceExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708116AF9470ACE533BB6391FD944770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E458E922667727883DE90F627D02FA4 /* Pods-HomesteadTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CCC6B63044C0BCDB71535E348D19465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2629BEA62E2B37E0E3E445B02A5546D5 /* Pods-HomesteadUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HomesteadUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HomesteadUITests/Pods-HomesteadUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HomesteadUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		451293BF8B29E8651C7AFAD449D3DA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E5F15B8C424DA3EF81457EAF2EBC6F8 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C58209DFCC1E2D330A981D038AA0750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7F493286E1895910BFC7FD86E9917E /* Pods-HomesteadUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HomesteadUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HomesteadUITests/Pods-HomesteadUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HomesteadUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7956B46FE3007FADDD491F0D0EAC0633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF18075A2A3777B8D0046AA3605638C /* Pods-HomesteadTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HomesteadTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HomesteadTests/Pods-HomesteadTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HomesteadTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90E47A556E3B6DFAEDFA0CE97097EE97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D90F266108B248257454DDD3F24EF8 /* Pods-Homestead.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Homestead/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Homestead/Pods-Homestead.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Homestead;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C462F28A369DA6F36E8ADD866832E7D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CFB8CE7013AC86356F553B411361D3 /* Pods-Homestead.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Homestead/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Homestead/Pods-Homestead.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Homestead;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7F03BE9749EE93737850A6199B6BDD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4440A88061A2DF67B0228B4BCE140A43 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEA3C42679A39D23027A99E9E1974E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D55C28FB7D4E02513EBD6C4BF17597A /* Pods-HomesteadTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HomesteadTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HomesteadTests/Pods-HomesteadTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HomesteadTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45E4840848256FFD31C52F1445E9F39E /* Build configuration list for PBXNativeTarget "Pods-HomesteadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA3C42679A39D23027A99E9E1974E05 /* Debug */,
+				7956B46FE3007FADDD491F0D0EAC0633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B8484BCBB9BF0FF6FC51657FFDF22D3 /* Build configuration list for PBXNativeTarget "Pods-OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7F03BE9749EE93737850A6199B6BDD6 /* Debug */,
+				451293BF8B29E8651C7AFAD449D3DA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A53C1B44C2E13629618DFAC23C1E887 /* Build configuration list for PBXNativeTarget "Pods-Homestead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E47A556E3B6DFAEDFA0CE97097EE97 /* Debug */,
+				C462F28A369DA6F36E8ADD866832E7D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80B41BA6F35FE47B1E630A2F68241FDC /* Build configuration list for PBXNativeTarget "Pods-HomesteadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C58209DFCC1E2D330A981D038AA0750 /* Debug */,
+				2CCC6B63044C0BCDB71535E348D19465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

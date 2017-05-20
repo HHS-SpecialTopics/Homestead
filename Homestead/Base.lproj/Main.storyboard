@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7S4-to-ABg">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="yXh-lG-NZ8">
+            <objects>
+                <tableViewController id="z5I-f1-iPv" customClass="TableViewController" customModule="Homestead" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="eXX-bk-vVJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Hv6-fj-TDt">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Hv6-fj-TDt" id="LnF-BK-pHQ">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="z5I-f1-iPv" id="1wT-U3-ose"/>
+                            <outlet property="delegate" destination="z5I-f1-iPv" id="ese-kA-zlr"/>
+                        </connections>
+                    </tableView>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j3h-eT-YSD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1364" y="887"/>
+        </scene>
+        <!--Web View-->
+        <scene sceneID="2QY-2d-7oS">
+            <objects>
+                <viewController storyboardIdentifier="WebViewControlID" id="7S4-to-ABg" customClass="WebView" customModule="Homestead" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RI3-kU-FdE"/>
+                        <viewControllerLayoutGuide type="bottom" id="YMq-oc-7lr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="center" id="Xxd-nY-aum">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" misplaced="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wuf-6i-K02">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" red="0.28958413" green="0.31462949509999999" blue="0.32950475810000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="wuf-6i-K02" secondAttribute="trailing" constant="-20" id="A28-xh-Eqn"/>
+                            <constraint firstItem="YMq-oc-7lr" firstAttribute="top" secondItem="wuf-6i-K02" secondAttribute="bottom" id="Gfu-O0-8Dx"/>
+                            <constraint firstItem="wuf-6i-K02" firstAttribute="leading" secondItem="Xxd-nY-aum" secondAttribute="leadingMargin" constant="-20" id="HHs-8r-3DV"/>
+                            <constraint firstItem="wuf-6i-K02" firstAttribute="top" secondItem="RI3-kU-FdE" secondAttribute="bottom" id="Zbk-lG-NfQ"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" id="D5G-k9-3db"/>
+                    <connections>
+                        <outlet property="webView" destination="wuf-6i-K02" id="vtn-Mb-3Tl"/>
+                        <segue destination="z5I-f1-iPv" kind="show" identifier="showTable" id="0If-nZ-Nam"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SJH-z7-yqe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="190" y="239"/>
+        </scene>
+    </scenes>
+</document>

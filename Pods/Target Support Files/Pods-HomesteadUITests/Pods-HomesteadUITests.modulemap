@@ -1,0 +1,6 @@
+framework module Pods_HomesteadUITests {
+  umbrella header "Pods-HomesteadUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
