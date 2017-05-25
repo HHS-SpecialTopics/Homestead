@@ -16,10 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        application.registerUserNotificationSettings(UIUserNotificationSettings(types: .alert, categories: nil))//cleared inside of method
+        application.registerUserNotificationSettings(UIUserNotificationSettings(types: .alert, categories: nil))
         application.registerForRemoteNotifications()
-        if (HolderView.connectedToNetwork() == true){
+        if (WebView.connectedToNetwork() == true){
             OneSignal.initWithLaunchOptions(launchOptions, appId: "34f12e22-dd26-4f70-a76d-2c74ae498a8f")
         }
         return true

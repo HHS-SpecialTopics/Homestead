@@ -14,7 +14,6 @@ import SystemConfiguration
 class WebView: UIViewController, UIWebViewDelegate {
     @IBOutlet var webView: UIWebView!
     deinit {
-        //make sure to remove the observer when this view controller is dismissed/deallocated
         NotificationCenter.default.removeObserver(self, name: nil, object: nil)
     }
     
@@ -30,18 +29,10 @@ class WebView: UIViewController, UIWebViewDelegate {
         let requesting = URLRequest(url: requestURL!)
         webView.loadRequest(requesting)
         self.navigationController?.isNavigationBarHidden = true
-        /*let notification = UILocalNotification()
-        notification.alertBody = "test" // text that will be displayed in the notification
-        notification.alertAction = "open"
-        notification.fireDate = Date(timeIntervalSinceReferenceDate: 5) // todo item due date (when notification will be fired) notification.soundName = UILocalNotificationDefaultSoundName // play default sound
-        // Do any additional setup after loading the view, typically from a nib.
-        UIApplication.shared.scheduleLocalNotification(notification)*/
-    
         if (WebView.connectedToNetwork() == true){
         } else{
             let alert = UIAlertView(title: "No Internet Connection", message: "Make sure your device is connected to the internet.", delegate: nil, cancelButtonTitle: "OK")
             alert.show()
-            //then the user needs to be sent back to the splash screen
         }
         
     }
@@ -100,7 +91,7 @@ class WebView: UIViewController, UIWebViewDelegate {
                 print("got request")
                 // parse custom URL to extract parameter
                 if(url.absoluteString.range(of: "settings") != nil ){
-                    self.performSegue(withIdentifier: "showTable", sender: self)//showSetting as identifier
+                    self.performSegue(withIdentifier: "showTable", sender: self)
                 }
                 return false; // return false, so webView won't actually try to load this fake request
             }

@@ -16,10 +16,8 @@
 		9D509ACC1ECFA67B00E225B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D509ACA1ECFA67B00E225B8 /* LaunchScreen.storyboard */; };
 		9D509AD71ECFA67B00E225B8 /* HomesteadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D509AD61ECFA67B00E225B8 /* HomesteadTests.swift */; };
 		9D509AE21ECFA67B00E225B8 /* HomesteadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D509AE11ECFA67B00E225B8 /* HomesteadUITests.swift */; };
-		9D509AF01ECFA71500E225B8 /* HolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D509AEF1ECFA71500E225B8 /* HolderView.swift */; };
 		9D509AF21ECFA7C100E225B8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D509AF11ECFA7C100E225B8 /* TableViewController.swift */; };
 		9D509AF41ECFA7D400E225B8 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D509AF31ECFA7D400E225B8 /* WebView.swift */; };
-		9D509AF61ECFA83900E225B8 /* homesteadhigh.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D509AF51ECFA83800E225B8 /* homesteadhigh.png */; };
 		9D509AFE1ECFA90A00E225B8 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D509AFD1ECFA90A00E225B8 /* NotificationService.swift */; };
 		9D509B021ECFA90B00E225B8 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9D509AFB1ECFA90A00E225B8 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AA6E4BCDE483DE80BAAAA0DF /* Pods_HomesteadTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C620D31409D7ACE08B2C0788 /* Pods_HomesteadTests.framework */; };
@@ -86,10 +84,8 @@
 		9D509ADD1ECFA67B00E225B8 /* HomesteadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomesteadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D509AE11ECFA67B00E225B8 /* HomesteadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomesteadUITests.swift; sourceTree = "<group>"; };
 		9D509AE31ECFA67B00E225B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D509AEF1ECFA71500E225B8 /* HolderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolderView.swift; sourceTree = "<group>"; };
 		9D509AF11ECFA7C100E225B8 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		9D509AF31ECFA7D400E225B8 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
-		9D509AF51ECFA83800E225B8 /* homesteadhigh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homesteadhigh.png; sourceTree = "<group>"; };
 		9D509AFB1ECFA90A00E225B8 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D509AFD1ECFA90A00E225B8 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		9D509AFF1ECFA90A00E225B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -188,8 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				9D08780C1ECFBDA600175E3F /* Homestead.entitlements */,
-				9D509AF51ECFA83800E225B8 /* homesteadhigh.png */,
-				9D509AEF1ECFA71500E225B8 /* HolderView.swift */,
 				9D509AC11ECFA67B00E225B8 /* AppDelegate.swift */,
 				9D509AF11ECFA7C100E225B8 /* TableViewController.swift */,
 				9D509AF31ECFA7D400E225B8 /* WebView.swift */,
@@ -382,7 +376,6 @@
 			files = (
 				9D509ACC1ECFA67B00E225B8 /* LaunchScreen.storyboard in Resources */,
 				9D509AC91ECFA67B00E225B8 /* Assets.xcassets in Resources */,
-				9D509AF61ECFA83900E225B8 /* homesteadhigh.png in Resources */,
 				9D509AC71ECFA67B00E225B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,7 +576,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D509AF01ECFA71500E225B8 /* HolderView.swift in Sources */,
 				9D509AF41ECFA7D400E225B8 /* WebView.swift in Sources */,
 				9D509AC21ECFA67B00E225B8 /* AppDelegate.swift in Sources */,
 				9D509AF21ECFA7C100E225B8 /* TableViewController.swift in Sources */,
