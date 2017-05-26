@@ -80,22 +80,19 @@ class WebView: UIViewController, UIWebViewDelegate {
     }
     
     func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
-        print("entered webView")
         switch navigationType {
         case .linkClicked:
-            print("link")
             // Open links in Safari
             guard let url = request.url else { return true }
             if(url.absoluteString.range(of: "/native/") != nil )
             {
-                print("got request")
                 // parse custom URL to extract parameter
                 if(url.absoluteString.range(of: "settings") != nil ){
                     self.performSegue(withIdentifier: "showTable", sender: self)
                 }
                 return false; // return false, so webView won't actually try to load this fake request
             }
-            if ((url.absoluteString.range(of: "ec2-13-58-42-230.us-east-2.compute.amazonaws.com/") != nil) || (url.absoluteString.range(of: "icalfeed.ashx") != nil)) {
+            if ((url.absoluteString.range(of: "ec2-13-58-42-230.us-east-2.compute.amazonaws.com/") != nil) || (url.absoluteString.range(of: "icalfeed.ashx") != nil) || (url.absoluteString.range(of: "code.jquery.com") != nil)) {
                 return true
             } else {
                 if #available(iOS 10.0, *) {
@@ -107,9 +104,7 @@ class WebView: UIViewController, UIWebViewDelegate {
             }
             return false
         default:
-            print("default")
             guard let url = request.url else { return true }
-            print(url)
                         // Handle other navigation types...
             return true
         }

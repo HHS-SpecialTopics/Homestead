@@ -32,7 +32,6 @@ class TableViewController: UITableViewController {
     }
     
     func reloadView() {
-        print("reloading")
         self.viewDidLoad()
     }
     
@@ -81,15 +80,12 @@ class TableViewController: UITableViewController {
         if let result = try? accessChecker.requestAccess(to: EKEntityType.event, completion: {
             (success: Bool, error: Error?) in
             
-            print("Got permission = \(success); error = \(error)")
             if(success == false){
                 button.setTitle("No Calendar Access", for: .normal)
             } else {
-                print("YES access")
             }
             
         }){
-            print("unecessary success?; or I always print?")
         }
         if (checkICS() == true) {
             button.removeFromSuperview()
@@ -105,12 +101,9 @@ class TableViewController: UITableViewController {
         } else {
             for x in 0...(settings.count-1)
             {
-                print(x)
-                print((settingsDictionary.allValues[x] as AnyObject))
                 OneSignal.sendTag((settingsDictionary.allValues[x] as AnyObject) as! String, value: "true")
                 settingsNS.set(true, forKey: (settingsDictionary.allValues[x] as AnyObject) as! String)
             }
-            print("First launch, enabling notifications.")
             UserDefaults.standard.set(true, forKey: "launchedBefore")
         }
     }
@@ -134,7 +127,6 @@ class TableViewController: UITableViewController {
         while (spin == true) {
             sleep(1)
         }
-        print("alreadysubscribed: \(alreadySubcribed)")
         return alreadySubcribed
     }
     
@@ -142,15 +134,7 @@ class TableViewController: UITableViewController {
         let eventStore = EKEventStore()
         var spin = true
         eventStore.requestAccess(to: EKEntityType.event) { (granted, error) -> Void in
-            let calendarList = eventStore.calendars(for: EKEntityType.event)
-            var sacsIndex = 0
-            for x in 0..<calendarList.count {
-                print(calendarList[x].title)
-                if (calendarList[x].title == "www.sacs.k12.in.us/site/handlers/icalfeed.ashx?MIID=1") {
-                    sacsIndex = x
-                }
-            }
-                UIApplication.shared.openURL(URL(string: "webcal://www.sacs.k12.in.us/site/handlers/icalfeed.ashx?MIID=1")!)
+            UIApplication.shared.openURL(URL(string: "webcal://www.sacs.k12.in.us/site/handlers/icalfeed.ashx?MIID=1")!)
             spin = false
         }
         while (spin == true) {
